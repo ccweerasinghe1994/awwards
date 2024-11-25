@@ -1,7 +1,10 @@
+import Hero from "./components/Hero.tsx";
+
 function App() {
     return (
         <main>
-            <h1 className={"text-5xl text-violet-300 font-bold"}>Well Come to Awards</h1>
+            <Hero/>
+            <section className="z-0 min-h-screen bg-blue-500"></section>
         </main>
     )
 }
