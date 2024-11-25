@@ -131,19 +131,20 @@ const Hero = () => {
 
                     />
                 </div>
-                <h1 className="special-font hero-heading absolute bottom-5 z-40 text-blue-75">G<b>a</b>ming</h1>
+                <h1 className="special-font hero-heading absolute bottom-5 z-40 text-blue-75">W<b>E</b>B</h1>
                 <div className="absolute left-0 top-0 z-40 size-full">
                     <div className="mt-24 px-5 sm:px-10">
-                        <h1 className="special-font hero-heading text-blue-100">Redefi<b>n</b>e</h1>
-                        <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-                            Enter the world of gaming with the best gaming experience.
+                        <h1 className="special-font hero-heading text-blue-100">CGNEXU<b>S</b></h1>
+                        <p className="mb-5 max-w-72 font-robert-regular text-blue-100">
+                            Enter the world of web development with the best digital experience
                         </p>
-                        <Button id={"watch-trailer"} title={"Watch Trailer"} leftIcon={<TiLocationArrow/>}
+                        <Button id={"watch-trailer"} title={"Transform Your Ideas with Us"}
+                                leftIcon={<TiLocationArrow/>}
                                 containerClass={"!bg-yellow-300 flex-center gap-1"}/>
                     </div>
                 </div>
             </div>
-            <h1 className="special-font hero-heading absolute bottom-5   text-black">G<b>a</b>ming</h1>
+            <h1 className="special-font hero-heading absolute bottom-5   text-black">W<b>E</b>B</h1>
         </div>
     );
 };
