@@ -3,15 +3,16 @@ import {FC, ReactNode} from "react";
 type Created = {
     id: string,
     title: string,
-    leftIcon: ReactNode,
-    containerClass: string
+    leftIcon?: ReactNode,
+    containerClass: string,
+    rightIcon?: ReactNode,
 
 };
 
 //                                 containerClass={"bg-yellow-300 flex-center gap-1"}/>
 const Button: FC<Created> = (props) => {
 
-    const {id, title, leftIcon, containerClass} = props;
+    const {id, title, leftIcon, containerClass, rightIcon} = props;
 
     return (
         <button id={id}
@@ -22,6 +23,7 @@ const Button: FC<Created> = (props) => {
                 {title}
                 </div>
             </span>
+            {rightIcon}
         </button>
     )
 };

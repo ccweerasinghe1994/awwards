@@ -30,7 +30,8 @@ const About = () => {
                 <h2 className="font-general text-sm uppercase md:text-[10px]">
                     Well come to CGNEXUS
                 </h2>
-                <AnimatedTitle/>
+                <AnimatedTitle className={"mt-5 !text-black text-center"}
+                               title={"Disc<b>o</b>ver the World <br /> of Web <b>D</b>evelopment"}/>
 
                 <div className="about-subtext">
                     <p className="">
